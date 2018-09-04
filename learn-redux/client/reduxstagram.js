@@ -1,8 +1,12 @@
 import React from 'react';
 import { render } from 'react-dom';
 
-// import css
+// Import CSS
 
 import css from './styles/style.styl';
 
-render(<p>hi</p>, document.getElementById('root'));
+// Import Components
+
+import Main from './components/Main';
+
+render(<Main />, document.getElementById('root'));
